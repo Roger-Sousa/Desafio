@@ -1,0 +1,24 @@
+body{
+    background-color: gray;
+    font: normal 20px arial;
+    color: rgb(255, 255, 255);
+    text-align: center;}
+
+.title {
+    transition: 1s;
+    font-size: 50px;
+}
+
+.title:hover {
+    text-shadow: 4px 4px #000000;
+}
+
+img {
+    transition: 1s;
+    margin: 25px;
+}
+
+img:hover {
+    /* transform: translateY(-50px); */
+    box-shadow: -14px 20px 21px -6px rgba(0,0,0,0.8);
+}

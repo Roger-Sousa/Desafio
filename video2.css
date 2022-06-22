@@ -1,0 +1,54 @@
+body {
+    background-color: gray;
+    font: normal 20px arial;
+    color: white;
+    text-align: center;}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.title {
+    transition: 1s;
+    font-size: 50px;
+}
+
+.title:hover {
+    text-shadow: 3px 3px 0px black;
+}
+
+.video2 {
+    transition: 1s;
+}
+
+.video2:hover {
+    box-shadow: 0px 20px 21px -6px black;
+}
+
+p {
+    transition: 1s;
+}
+
+p:hover {
+    text-shadow: 1px 1px 2px black;
+}
+
+.butom-back {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.butom-back {
+    transition: 1s;
+}
+
+.butom-back:hover {
+    box-shadow: 0px 15px 15px -6px black;
+}
